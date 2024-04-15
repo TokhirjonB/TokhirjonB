@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT 0120 D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3cb87a;
+            color: #272727;
+        }
+        body {
+    background-image: url('https://i.pinimg.com/originals/07/fd/96/07fd963b8e90ad286c634ca64c3467f3.jpg'); 
+    /* Замените 'путь_к_вашему_изображению.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* Зафиксируйте изображение на фоне */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #272727;
+}
+        header {
+            background-color: #2c2626;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    animation: pulsate 2s ease-in-out infinite; /* добавляем анимацию пульсации */
+}
+
+/* Анимация пульсации */
+@keyframes pulsate {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+        nav {
+            background-color: #ffcc00;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* Стили для формы обратной связи */
+        #contact-form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #e07e00;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Стили для галереи изображений */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .member {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px; /* Добавлено для создания отступа между членами команды */
+    }
+
+    
+
+        /* Стили для финального раздела "Благодарности" */
+        section:last-child {
+            background-color: #ffe4b5;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ffcc00; /* Замените этот цвет на желаемый */
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            color: #161616;
+        }
+    </style>
+    <style>
+       #people {
+        text-align: center;
+    }
+
+    #people figure {
+        display: inline-block; /* Сделаем блок инлайновым, чтобы его можно было центрировать */
+    }
+
+    #people img {
+        max-width: 100%; /* Сделаем изображение адаптивным */
+        max-height: 200px; /* Задаем максимальную высоту изображения */
+        border-radius: 50%; /* Сделаем углы изображения круглыми */
+        margin-bottom: 10px; /* Добавим отступ снизу */
+    }
+
+    #people figcaption {
+        max-width: 300px; /* Задаем максимальную ширину для описания */
+        margin: 0 auto; /* Выравниваем описание по центру */
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>IT 0120 D</h1>
+</header>
+
+<nav>
+    <a href="#home">Bosh bo'lim</a>
+    <a href="#services">Qisqa ma'lumot</a>
+    <a href="#portfolio">Biz</a>
+    <a href="#people">Gurux Sardori</a>
+    <a href="#contact">Takliflar</a>
+</nav>
+
+<section id="home">
+    <h2>Saytimizga hush kelibsiz!</h2>
+    <p>
+        Siz bu yerda biz haqimizda qisqa ma'lumotga ega bo'lasiz!
+    </p>
+</section>
+
+<section id="services">
+    <h2>Gurux a'zolari ro'yxati</h2>
+    <ol>
+        <li>Abdusalomova Yulduzxon</li>
+        <li>Anvarov Hasan</li>
+        <li>Auyusbayev Nurlan</li>
+        <li>Axatova Feruza</li>
+        <li>Baxriddinov Toxirjon</li>
+        <li>Baxriddinov Islomiddin</li>
+        <li>Ibragimov Azizjon</li>
+        <li>Kamolov Muhammadjon</li>
+        <li>Karimov Abdumutallib</li>
+        <li>Kodirov Azizbek</li>
+        <li>Mamadaliyev Izzatilla</li>
+        <li>Mamadaliyev Raxmatilla</li>
+        <li>Meliyeva Gulyora</li>
+        <li>Musayev Asilbek</li>
+        <li>Nurdinov Yaxyobek</li>
+        <li>O'razaliyev Og'abek</li>
+        <li>Odilov Asadbek</li>
+        <li>Oqilov Odiljon</li>
+        <li>Raximjonov Biloliddin</li>
+        <li>Ruftilloyev Nurislom</li>
+        <li>Tagayev Nursulton</li>
+        <li>Tog'ayeva Farida</li>
+        <li>Tolibov Javohir</li>
+        <li>Toychiyev Alisher</li>
+        <li>Tursunaliyev Shoxjaxon</li>
+        <li>Tursunboyev Bexzodbek</li>
+        <li>Umurzakov Boburjon</li>
+        <li>Xaydarov Izzatullo</li>
+        <li>Yusupov Abdulazizbek</li>
+        <!-- Добавьте дополнительные члены команды, как необходимо -->
+    </ol>
+</section>
+
+<section id="portfolio">
+    <h2>Biz</h2>
+    <div class="gallery">
+        <img src="C:\Users\bahri\OneDrive\Desktop\index2\20231212_111930.jpg" alt="Изображение 1">
+        <img src="C:\Users\bahri\OneDrive\Desktop\index2\photo_2023-12-12_11-21-37.jpg" alt="Изображение 2">
+        <img src="C:\Users\bahri\OneDrive\Desktop\index2\20231212_111959.jpg" alt="Изображение 3">
+
+        <!-- Добавьте дополнительные изображения по мере необходимости -->
+    </div>
+</section>
+
+<section id="people">
+    <h2>Gurux Sardori</h2>
+    <div class="member">
+        <figure>
+            <img src="C:\Users\bahri\OneDrive\Desktop\index2\photo_2023-12-12_11-21-41.jpg" alt="Изображение 1">
+            <figcaption>
+                <strong>Kodirov Azizbek</strong>
+                <!-- Дополнительная информация о члене команды 1 -->
+            </figcaption>
+        </figure>
+        <!-- Повторите блок figure и figcaption для каждого члена команды -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Bog'lanish</h2>
+    <p>
+        Biz bilan bog'laning, biz sizning savollaringiz va takliflaringizdan doimo xursandmiz.
+    </p>
+    <div id="contact-form">
+        <label for="name">Ismingiz:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Elektron pochtangiz:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Talab va taklifingiz:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Yuborish</button>
+    </div>
+</section>
+
+<section>
+    <h2>Biz haqimizda</h2>
+    <p>
+        Biz ajoyib  ijodiy jamoamiz. Biz O'zbekistonni buyuk va farovon qilishga intilamiz. Bizning maqsadimiz kelajakda yaxshi dasturchi bo'lib chiqishdir.
+    </p>
+</section>
+
+<section>
+    <h2>Minnatdorchilik</h2>
+    <p>
+        Biz barcha o'qituvchilarimiz va universitet xodimlariga uzoq muddatli hamkorlik va ishonch uchun o'z minnatdorchiligimizni bildiramiz. Sizsiz bizning yutuqlarimiz amalga oshmas emas edi.
+    </p>
+</section>
+
+<footer>
+    <p>© 2023 TB corp. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+</body>
+</html>
